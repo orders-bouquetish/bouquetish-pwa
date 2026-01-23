@@ -1,25 +1,27 @@
 {
-  "id": "/",
   "name": "Bouquetish Admin",
   "short_name": "Bouquetish",
-  "description": "Bouquetish admin dashboard for managing orders, inventory, and reports.",
-  "start_url": "https://bouquetish.ct.ws/index.php",
-  "scope": "https://bouquetish.ct.ws/",
+  "description": "Admin dashboard for managing orders, customers, inventory, and reports.",
+  "start_url": "/index.php",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#f4f7fb",
+  "background_color": "#2f855a",
   "theme_color": "#2f855a",
   "orientation": "portrait",
+  "categories": ["business", "productivity"],
+
   "icons": [
     {
-      "src": "https://bouquetish.ct.ws/assets/icons/icon-192.png",
+      "src": "/assets/icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "https://bouquetish.ct.ws/assets/icons/icon-512.png",
+      "src": "/assets/icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
-  ],
-  "categories": ["business", "productivity"]
+  ]
 }
