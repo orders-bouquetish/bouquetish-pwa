@@ -2,7 +2,7 @@
   "name": "Bouquetish Admin",
   "short_name": "Bouquetish",
   "description": "Admin dashboard for managing orders, customers, inventory, and reports.",
-  "start_url": "/pwa-entry.php",
+  "start_url": "/index.php",
   "scope": "/",
   "display": "standalone",
   "background_color": "#2f855a",
